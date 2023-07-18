@@ -15,6 +15,7 @@
 		D730732C2A6716F20030738D /* FoodinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D730732B2A6716F20030738D /* FoodinoTests.swift */; };
 		D73073362A6716F20030738D /* FoodinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73073352A6716F20030738D /* FoodinoUITests.swift */; };
 		D73073382A6716F20030738D /* FoodinoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73073372A6716F20030738D /* FoodinoUITestsLaunchTests.swift */; };
+		D73073452A6721A90030738D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73073442A6721A80030738D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D73073312A6716F20030738D /* FoodinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodinoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73073352A6716F20030738D /* FoodinoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodinoUITests.swift; sourceTree = "<group>"; };
 		D73073372A6716F20030738D /* FoodinoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodinoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D73073442A6721A80030738D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		D73073102A6716F10030738D /* Foodino */ = {
 			isa = PBXGroup;
 			children = (
+				D73073442A6721A80030738D /* Assets.xcassets */,
 				D73073112A6716F10030738D /* AppDelegate.swift */,
 				D73073132A6716F10030738D /* SceneDelegate.swift */,
 				D73073172A6716F10030738D /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D73073212A6716F20030738D /* LaunchScreen.storyboard in Resources */,
+				D73073452A6721A90030738D /* Assets.xcassets in Resources */,
 				D73073192A6716F10030738D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
