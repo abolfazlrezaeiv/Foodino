@@ -9,10 +9,8 @@
 /* Begin PBXBuildFile section */
 		D73073122A6716F10030738D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73073112A6716F10030738D /* AppDelegate.swift */; };
 		D73073142A6716F10030738D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73073132A6716F10030738D /* SceneDelegate.swift */; };
-		D73073162A6716F10030738D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73073152A6716F10030738D /* ViewController.swift */; };
 		D73073192A6716F10030738D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73073172A6716F10030738D /* Main.storyboard */; };
 		D730731C2A6716F10030738D /* Foodino.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D730731A2A6716F10030738D /* Foodino.xcdatamodeld */; };
-		D730731E2A6716F20030738D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D730731D2A6716F20030738D /* Assets.xcassets */; };
 		D73073212A6716F20030738D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D730731F2A6716F20030738D /* LaunchScreen.storyboard */; };
 		D730732C2A6716F20030738D /* FoodinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D730732B2A6716F20030738D /* FoodinoTests.swift */; };
 		D73073362A6716F20030738D /* FoodinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73073352A6716F20030738D /* FoodinoUITests.swift */; };
@@ -40,10 +38,8 @@
 		D730730E2A6716F10030738D /* Foodino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73073112A6716F10030738D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D73073132A6716F10030738D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D73073152A6716F10030738D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D73073182A6716F10030738D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D730731B2A6716F10030738D /* Foodino.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Foodino.xcdatamodel; sourceTree = "<group>"; };
-		D730731D2A6716F20030738D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D73073202A6716F20030738D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D73073222A6716F20030738D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D73073272A6716F20030738D /* FoodinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,9 +99,7 @@
 			children = (
 				D73073112A6716F10030738D /* AppDelegate.swift */,
 				D73073132A6716F10030738D /* SceneDelegate.swift */,
-				D73073152A6716F10030738D /* ViewController.swift */,
 				D73073172A6716F10030738D /* Main.storyboard */,
-				D730731D2A6716F20030738D /* Assets.xcassets */,
 				D730731F2A6716F20030738D /* LaunchScreen.storyboard */,
 				D73073222A6716F20030738D /* Info.plist */,
 				D730731A2A6716F10030738D /* Foodino.xcdatamodeld */,
@@ -235,7 +229,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D73073212A6716F20030738D /* LaunchScreen.storyboard in Resources */,
-				D730731E2A6716F20030738D /* Assets.xcassets in Resources */,
 				D73073192A6716F10030738D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D73073162A6716F10030738D /* ViewController.swift in Sources */,
 				D73073122A6716F10030738D /* AppDelegate.swift in Sources */,
 				D730731C2A6716F10030738D /* Foodino.xcdatamodeld in Sources */,
 				D73073142A6716F10030738D /* SceneDelegate.swift in Sources */,
