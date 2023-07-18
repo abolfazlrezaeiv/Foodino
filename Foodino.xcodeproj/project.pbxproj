@@ -16,6 +16,7 @@
 		D73073362A6716F20030738D /* FoodinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73073352A6716F20030738D /* FoodinoUITests.swift */; };
 		D73073382A6716F20030738D /* FoodinoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73073372A6716F20030738D /* FoodinoUITestsLaunchTests.swift */; };
 		D73073452A6721A90030738D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73073442A6721A80030738D /* Assets.xcassets */; };
+		D73073482A672A660030738D /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73073472A672A660030738D /* ExploreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D73073352A6716F20030738D /* FoodinoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodinoUITests.swift; sourceTree = "<group>"; };
 		D73073372A6716F20030738D /* FoodinoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodinoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D73073442A6721A80030738D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D73073472A672A660030738D /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		D73073102A6716F10030738D /* Foodino */ = {
 			isa = PBXGroup;
 			children = (
+				D73073462A672A010030738D /* Explore */,
 				D73073442A6721A80030738D /* Assets.xcassets */,
 				D73073112A6716F10030738D /* AppDelegate.swift */,
 				D73073132A6716F10030738D /* SceneDelegate.swift */,
@@ -125,6 +128,14 @@
 				D73073372A6716F20030738D /* FoodinoUITestsLaunchTests.swift */,
 			);
 			path = FoodinoUITests;
+			sourceTree = "<group>";
+		};
+		D73073462A672A010030738D /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				D73073472A672A660030738D /* ExploreViewController.swift */,
+			);
+			path = Explore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D73073482A672A660030738D /* ExploreViewController.swift in Sources */,
 				D73073122A6716F10030738D /* AppDelegate.swift in Sources */,
 				D730731C2A6716F10030738D /* Foodino.xcdatamodeld in Sources */,
 				D73073142A6716F10030738D /* SceneDelegate.swift in Sources */,
