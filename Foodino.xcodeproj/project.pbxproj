@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D72CEAAA2A6958F70080A358 /* RestaurantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72CEAA92A6958F70080A358 /* RestaurantListViewController.swift */; };
 		D73073122A6716F10030738D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73073112A6716F10030738D /* AppDelegate.swift */; };
 		D73073142A6716F10030738D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73073132A6716F10030738D /* SceneDelegate.swift */; };
 		D73073192A6716F10030738D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73073172A6716F10030738D /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D72CEAA92A6958F70080A358 /* RestaurantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListViewController.swift; sourceTree = "<group>"; };
 		D730730E2A6716F10030738D /* Foodino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73073112A6716F10030738D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D73073132A6716F10030738D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D72CEAA82A6958B70080A358 /* Restaurants */ = {
+			isa = PBXGroup;
+			children = (
+				D72CEAA92A6958F70080A358 /* RestaurantListViewController.swift */,
+			);
+			path = Restaurants;
+			sourceTree = "<group>";
+		};
 		D73073052A6716F00030738D = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +111,7 @@
 		D73073102A6716F10030738D /* Foodino */ = {
 			isa = PBXGroup;
 			children = (
+				D72CEAA82A6958B70080A358 /* Restaurants */,
 				D73073462A672A010030738D /* Explore */,
 				D73073442A6721A80030738D /* Assets.xcassets */,
 				D73073112A6716F10030738D /* AppDelegate.swift */,
@@ -271,6 +282,7 @@
 			files = (
 				D73073482A672A660030738D /* ExploreViewController.swift in Sources */,
 				D73073122A6716F10030738D /* AppDelegate.swift in Sources */,
+				D72CEAAA2A6958F70080A358 /* RestaurantListViewController.swift in Sources */,
 				D730731C2A6716F10030738D /* Foodino.xcdatamodeld in Sources */,
 				D73073142A6716F10030738D /* SceneDelegate.swift in Sources */,
 			);
