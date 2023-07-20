@@ -3,6 +3,7 @@
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -16,8 +17,20 @@
                     <view key="view" contentMode="scaleToFill" id="vo0-hY-u6D">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bkc-eQ-vJH">
+                                <rect key="frame" x="0.0" y="91" width="375" height="638"/>
+                                <standardMapConfiguration key="preferredConfiguration"/>
+                            </mapView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Wdh-Ey-JyK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Wdh-Ey-JyK" firstAttribute="trailing" secondItem="Bkc-eQ-vJH" secondAttribute="trailing" id="G2o-AR-LR1"/>
+                            <constraint firstItem="Bkc-eQ-vJH" firstAttribute="top" secondItem="Wdh-Ey-JyK" secondAttribute="top" id="gFE-ZD-1B5"/>
+                            <constraint firstItem="Wdh-Ey-JyK" firstAttribute="bottom" secondItem="Bkc-eQ-vJH" secondAttribute="bottom" id="mM6-6F-fOs"/>
+                            <constraint firstItem="Bkc-eQ-vJH" firstAttribute="leading" secondItem="Wdh-Ey-JyK" secondAttribute="leading" id="y2i-RF-X3e"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="xe9-uu-D9X"/>
                 </viewController>
@@ -172,6 +185,9 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                    <connections>
+                                                        <segue destination="0LI-n7-f1i" kind="show" id="w4p-jx-lej"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -214,9 +230,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VeP-3I-dIz">
-                                <rect key="frame" x="166" y="396" width="63" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VeP-3I-dIz">
+                                <rect key="frame" x="156" y="395.66666666666669" width="63" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -224,11 +239,16 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eE5-cW-N8Y"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VeP-3I-dIz" firstAttribute="centerX" secondItem="swS-6I-qu6" secondAttribute="centerX" id="2fb-EA-XWY"/>
+                            <constraint firstItem="VeP-3I-dIz" firstAttribute="centerY" secondItem="swS-6I-qu6" secondAttribute="centerY" id="NV9-TG-6CM"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="dGL-Hp-5fU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yHG-a3-LVk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4332" y="-879"/>
+            <point key="canvasLocation" x="4558" y="-890"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="0e0-JJ-M4N">
