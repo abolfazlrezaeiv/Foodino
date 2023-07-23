@@ -53,6 +53,7 @@
 		D73073372A6716F20030738D /* FoodinoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodinoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D73073442A6721A80030738D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D73073472A672A660030738D /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		D74205F42A6DA1D6001F2D33 /* CollectionTestPlaygound.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CollectionTestPlaygound.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +92,7 @@
 		D73073052A6716F00030738D = {
 			isa = PBXGroup;
 			children = (
+				D74205F42A6DA1D6001F2D33 /* CollectionTestPlaygound.playground */,
 				D73073102A6716F10030738D /* Foodino */,
 				D730732A2A6716F20030738D /* FoodinoTests */,
 				D73073342A6716F20030738D /* FoodinoUITests */,
@@ -111,6 +113,7 @@
 		D73073102A6716F10030738D /* Foodino */ = {
 			isa = PBXGroup;
 			children = (
+				D74205F52A6DC18E001F2D33 /* Model */,
 				D72CEAA82A6958B70080A358 /* Restaurants */,
 				D73073462A672A010030738D /* Explore */,
 				D73073442A6721A80030738D /* Assets.xcassets */,
@@ -147,6 +150,13 @@
 				D73073472A672A660030738D /* ExploreViewController.swift */,
 			);
 			path = Explore;
+			sourceTree = "<group>";
+		};
+		D74205F52A6DC18E001F2D33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
