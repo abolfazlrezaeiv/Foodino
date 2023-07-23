@@ -18,6 +18,9 @@
 		D73073382A6716F20030738D /* FoodinoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73073372A6716F20030738D /* FoodinoUITestsLaunchTests.swift */; };
 		D73073452A6721A90030738D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73073442A6721A80030738D /* Assets.xcassets */; };
 		D73073482A672A660030738D /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73073472A672A660030738D /* ExploreViewController.swift */; };
+		D74205F72A6DC2CD001F2D33 /* ExploreData.plist in Resources */ = {isa = PBXBuildFile; fileRef = D74205F62A6DC2CD001F2D33 /* ExploreData.plist */; };
+		D74205F92A6DC310001F2D33 /* ExploreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74205F82A6DC310001F2D33 /* ExploreItem.swift */; };
+		D74205FB2A6DC3F8001F2D33 /* ExploreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74205FA2A6DC3F8001F2D33 /* ExploreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		D73073442A6721A80030738D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D73073472A672A660030738D /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		D74205F42A6DA1D6001F2D33 /* CollectionTestPlaygound.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CollectionTestPlaygound.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D74205F62A6DC2CD001F2D33 /* ExploreData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExploreData.plist; sourceTree = "<group>"; };
+		D74205F82A6DC310001F2D33 /* ExploreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreItem.swift; sourceTree = "<group>"; };
+		D74205FA2A6DC3F8001F2D33 /* ExploreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +161,9 @@
 		D74205F52A6DC18E001F2D33 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D74205F62A6DC2CD001F2D33 /* ExploreData.plist */,
+				D74205F82A6DC310001F2D33 /* ExploreItem.swift */,
+				D74205FA2A6DC3F8001F2D33 /* ExploreDataManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -263,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74205F72A6DC2CD001F2D33 /* ExploreData.plist in Resources */,
 				D73073212A6716F20030738D /* LaunchScreen.storyboard in Resources */,
 				D73073452A6721A90030738D /* Assets.xcassets in Resources */,
 				D73073192A6716F10030738D /* Main.storyboard in Resources */,
@@ -292,7 +302,9 @@
 			files = (
 				D73073482A672A660030738D /* ExploreViewController.swift in Sources */,
 				D73073122A6716F10030738D /* AppDelegate.swift in Sources */,
+				D74205F92A6DC310001F2D33 /* ExploreItem.swift in Sources */,
 				D72CEAAA2A6958F70080A358 /* RestaurantListViewController.swift in Sources */,
+				D74205FB2A6DC3F8001F2D33 /* ExploreDataManager.swift in Sources */,
 				D730731C2A6716F10030738D /* Foodino.xcdatamodeld in Sources */,
 				D73073142A6716F10030738D /* SceneDelegate.swift in Sources */,
 			);
