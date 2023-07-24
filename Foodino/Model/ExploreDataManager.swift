@@ -8,5 +8,16 @@
 import Foundation
 
 struct ExploreDataManager {
-    
+    private func loadData() -> [[String: String]] {
+       let decoder = PropertyListDecoder()
+       if let path = Bundle.main.path(forResource:
+       "ExploreData", ofType: "plist"),
+       let exploreData = FileManager.default.contents(
+       atPath: path),
+       let exploreItems = try? decoder.decode([[String:
+       String]].self, from: exploreData) {
+          return exploreItems
+       }
+       return [[:]]
+    }
 }
