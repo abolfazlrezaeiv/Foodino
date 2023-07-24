@@ -43,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		D72242352A6F060B009F2C57 /* ExploreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCell.swift; sourceTree = "<group>"; };
+		D72242372A6F12D5009F2C57 /* TableViewBasics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TableViewBasics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D72CEAA92A6958F70080A358 /* RestaurantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListViewController.swift; sourceTree = "<group>"; };
 		D730730E2A6716F10030738D /* Foodino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73073112A6716F10030738D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +109,7 @@
 		D73073052A6716F00030738D = {
 			isa = PBXGroup;
 			children = (
+				D72242372A6F12D5009F2C57 /* TableViewBasics.playground */,
 				D74205F42A6DA1D6001F2D33 /* CollectionTestPlaygound.playground */,
 				D73073102A6716F10030738D /* Foodino */,
 				D730732A2A6716F20030738D /* FoodinoTests */,
