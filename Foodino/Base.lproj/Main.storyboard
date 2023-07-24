@@ -57,7 +57,7 @@
                                     <inset key="sectionInset" minX="7" minY="7" maxX="7" maxY="7"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="exploreCell" id="HGJ-B7-YVN">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="exploreCell" id="HGJ-B7-YVN" customClass="ExploreCell" customModule="Foodino" customModuleProvider="target">
                                         <rect key="frame" x="7" y="107" width="177" height="177"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="2ei-Ju-o49">
@@ -99,6 +99,8 @@
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="177" height="177"/>
                                         <connections>
+                                            <outlet property="exploreImageView" destination="uWq-yr-127" id="Stm-tr-vqQ"/>
+                                            <outlet property="exploreNameLabel" destination="nrK-oR-GTq" id="iSW-MK-Zc3"/>
                                             <segue destination="vDS-Yb-vHs" kind="show" id="80k-4w-DVy"/>
                                         </connections>
                                     </collectionViewCell>
@@ -350,14 +352,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="locationCell" textLabel="0jA-mK-6CK" style="IBUITableViewCellStyleDefault" id="tu1-jq-vsG">
-                                <rect key="frame" x="0.0" y="50" width="375" height="43.666667938232422"/>
+                                <rect key="frame" x="0.0" y="50" width="375" height="47.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tu1-jq-vsG" id="7vp-Wt-TDg">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666667938232422"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="47.666667938232422"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0jA-mK-6CK">
-                                            <rect key="frame" x="20" y="0.0" width="335" height="43.666667938232422"/>
+                                            <rect key="frame" x="20" y="0.0" width="335" height="47.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <nil key="textColor"/>

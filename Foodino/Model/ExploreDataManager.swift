@@ -8,6 +8,14 @@
 import Foundation
 
 struct ExploreDataManager {
+    private var exploreItems : [ExploreItem] = []
+    
+    mutating func fetch()  {
+        for data in loadData(){
+            exploreItems.append(ExploreItem(dict: data))
+        }
+    }
+    
     private func loadData() -> [[String: String]] {
        let decoder = PropertyListDecoder()
        if let path = Bundle.main.path(forResource:
@@ -19,5 +27,13 @@ struct ExploreDataManager {
           return exploreItems
        }
        return [[:]]
+    }
+    
+    func numberOfExploreItems() -> Int {
+        exploreItems.count
+    }
+    
+    func exploreItem(at index : Int) -> ExploreItem {
+        exploreItems[index]
     }
 }

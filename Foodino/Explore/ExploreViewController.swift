@@ -10,9 +10,13 @@ import UIKit
 class ExploreViewController: UIViewController {
 
     @IBOutlet var collectionView: UICollectionView!
+    var manager = ExploreDataManager()
+
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.dataSource = self
+        manager.fetch()
+        
         // Do any additional setup after loading the view.
     }
     
@@ -24,11 +28,14 @@ class ExploreViewController: UIViewController {
 
 extension ExploreViewController : UICollectionViewDelegate,UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        20
+        manager.numberOfExploreItems()
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "exploreCell", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "exploreCell", for: indexPath) as! ExploreCell
+        var exploreItem = manager.exploreItem(at: indexPath.row)
+        cell.exploreNameLabel.text = exploreItem.name
+        cell.exploreImageView.image = UIImage(named: exploreItem.image!)
         return cell
     }
     
