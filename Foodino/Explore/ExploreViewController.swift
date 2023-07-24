@@ -17,7 +17,6 @@ class ExploreViewController: UIViewController {
         collectionView.dataSource = self
         manager.fetch()
         
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func unwindToLocationCancel(_ unwindSegue: UIStoryboardSegue) {
@@ -33,7 +32,7 @@ extension ExploreViewController : UICollectionViewDelegate,UICollectionViewDataS
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "exploreCell", for: indexPath) as! ExploreCell
-        var exploreItem = manager.exploreItem(at: indexPath.row)
+        let exploreItem = manager.exploreItem(at: indexPath.row)
         cell.exploreNameLabel.text = exploreItem.name
         cell.exploreImageView.image = UIImage(named: exploreItem.image!)
         return cell
@@ -43,6 +42,4 @@ extension ExploreViewController : UICollectionViewDelegate,UICollectionViewDataS
         let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "header", for: indexPath)
         return header
     }
-    
-    
 }
