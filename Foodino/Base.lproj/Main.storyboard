@@ -409,10 +409,10 @@
             </objects>
             <point key="canvasLocation" x="4558" y="-890"/>
         </scene>
-        <!--View Controller-->
+        <!--Location View Controller-->
         <scene sceneID="0e0-JJ-M4N">
             <objects>
-                <viewController id="gIs-rb-hiM" sceneMemberID="viewController">
+                <viewController id="gIs-rb-hiM" customClass="LocationViewController" customModule="Foodino" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kXW-RI-JTd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="755"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
