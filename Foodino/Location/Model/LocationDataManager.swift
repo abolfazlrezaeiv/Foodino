@@ -23,4 +23,12 @@ class LocationDataManager {
         }
         return locations
     }
+    
+    func fetchData()  {
+        for location in loadData() {
+            if let city = location["city"], let state = location["state"]{
+                locations.append("\(city) \(state)")
+            }
+        }
+    }
 }
