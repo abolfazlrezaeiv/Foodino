@@ -8,13 +8,15 @@
 import UIKit
 
 class LocationViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
+    let manager = LocationDataManager()
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        10
+        manager.numberOfLocationItems()
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "locationCell", for: indexPath)
-        cell.textLabel?.text = "A Cell"
+        cell.textLabel?.text = manager.locationItem(at: indexPath.row)
         return cell
     }
     
@@ -23,6 +25,6 @@ class LocationViewController: UIViewController,UITableViewDataSource,UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        manager.fetchData()
     }
 }
