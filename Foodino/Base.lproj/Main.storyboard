@@ -420,6 +420,10 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="nA7-Pw-k1w">
                                 <rect key="frame" x="0.0" y="56" width="375" height="699"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="gIs-rb-hiM" id="aB1-dG-Nbb"/>
+                                    <outlet property="delegate" destination="gIs-rb-hiM" id="xd4-P0-xe6"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lLy-7c-A7B"/>
@@ -439,6 +443,9 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Done" id="eGR-Hf-ZIo"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableview" destination="nA7-Pw-k1w" id="gg4-KG-6Ot"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R6Z-wf-iQJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="zn1-Tb-eSL" userLabel="Exit" sceneMemberID="exit"/>
