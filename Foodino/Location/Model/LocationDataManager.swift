@@ -31,4 +31,12 @@ class LocationDataManager {
             }
         }
     }
+    
+    func numberOfLocationItems() -> Int {
+        locations.count
+    }
+    
+    func locationItem(at index: Int) -> String {
+        locations[index]
+    }
 }
