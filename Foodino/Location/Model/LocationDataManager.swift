@@ -11,7 +11,7 @@ import Foundation
 class LocationDataManager : DataManager {
     private var locations : [String] = []
     
-    func loadData() -> [[String:String]] {
+    func loadData() -> [[String:AnyObject]] {
         loadPlist(file: "Locations")
     }
     
