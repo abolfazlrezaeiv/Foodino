@@ -27,6 +27,7 @@
 		D74860D12A7479B800D52C89 /* MapLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = D74860D02A7479B800D52C89 /* MapLocations.plist */; };
 		D74860D32A747A1700D52C89 /* RestaurantItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74860D22A747A1700D52C89 /* RestaurantItem.swift */; };
 		D77F7DE52A7077D0005AE67C /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77F7DE42A7077D0005AE67C /* LocationViewController.swift */; };
+		D7835C742A7542E700B88211 /* MapDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7835C732A7542E700B88211 /* MapDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		D74860D02A7479B800D52C89 /* MapLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MapLocations.plist; sourceTree = "<group>"; };
 		D74860D22A747A1700D52C89 /* RestaurantItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantItem.swift; sourceTree = "<group>"; };
 		D77F7DE42A7077D0005AE67C /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		D7835C732A7542E700B88211 /* MapDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 			children = (
 				D74860D02A7479B800D52C89 /* MapLocations.plist */,
 				D74860D22A747A1700D52C89 /* RestaurantItem.swift */,
+				D7835C732A7542E700B88211 /* MapDataManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				D74205FB2A6DC3F8001F2D33 /* ExploreDataManager.swift in Sources */,
 				D77F7DE52A7077D0005AE67C /* LocationViewController.swift in Sources */,
 				D730731C2A6716F10030738D /* Foodino.xcdatamodeld in Sources */,
+				D7835C742A7542E700B88211 /* MapDataManager.swift in Sources */,
 				D73073142A6716F10030738D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
