@@ -33,6 +33,7 @@
 		D79F501C2A76D56B007E26E7 /* RestaurantDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79F501B2A76D56B007E26E7 /* RestaurantDetail.storyboard */; };
 		D79F501F2A76D5D8007E26E7 /* ReviewForm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79F501E2A76D5D8007E26E7 /* ReviewForm.storyboard */; };
 		D79F50222A76D600007E26E7 /* PhotoFilter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79F50212A76D600007E26E7 /* PhotoFilter.storyboard */; };
+		D79F50242A76DAD8007E26E7 /* Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79F50232A76DAD8007E26E7 /* Segue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		D79F501B2A76D56B007E26E7 /* RestaurantDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RestaurantDetail.storyboard; sourceTree = "<group>"; };
 		D79F501E2A76D5D8007E26E7 /* ReviewForm.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ReviewForm.storyboard; sourceTree = "<group>"; };
 		D79F50212A76D600007E26E7 /* PhotoFilter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PhotoFilter.storyboard; sourceTree = "<group>"; };
+		D79F50232A76DAD8007E26E7 /* Segue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,6 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				D7835C762A75549700B88211 /* DataManager.swift */,
+				D79F50232A76DAD8007E26E7 /* Segue.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -436,6 +439,7 @@
 				D7835C742A7542E700B88211 /* MapDataManager.swift in Sources */,
 				D7835C772A75549700B88211 /* DataManager.swift in Sources */,
 				D73073142A6716F10030738D /* SceneDelegate.swift in Sources */,
+				D79F50242A76DAD8007E26E7 /* Segue.swift in Sources */,
 				D78B75812A75AD1E001409B9 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
