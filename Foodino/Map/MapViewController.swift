@@ -30,6 +30,10 @@ class MapViewController: UIViewController,MKMapViewDelegate {
         mapView.addAnnotations(manager.anotations)
     }
     
+    func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+        self.performSegue(withIdentifier: Segue.showDetail.rawValue, sender: self)
+    }
+    
     func mapView(_ mapView: MKMapView, viewFor annotation:
     MKAnnotation) -> MKAnnotationView? {
        let identifier = "custompin"

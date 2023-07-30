@@ -36,7 +36,7 @@
                     <navigationItem key="navigationItem" id="xe9-uu-D9X"/>
                     <connections>
                         <outlet property="mapView" destination="Bkc-eQ-vJH" id="LIp-E8-5JO"/>
-                        <segue destination="wmT-KF-rtv" kind="show" id="UUl-I2-3KV"/>
+                        <segue destination="wmT-KF-rtv" kind="show" identifier="showDetail" id="UUl-I2-3KV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T0i-XH-QRD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
