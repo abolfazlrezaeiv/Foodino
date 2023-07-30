@@ -21,19 +21,18 @@ class MapViewController: UIViewController,MKMapViewDelegate {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         switch segue.identifier {
-        case Segue.showDetail.rawValue:
-            self.showRestaurantDetail(segue: segue)
-        default:
-            print("Segue not added")
+            case Segue.showDetail.rawValue:
+                showRestaurantDetail(segue: segue)
+            default:
+                print("Segue not added")
        }
     }
     
     func showRestaurantDetail(segue: UIStoryboardSegue) {
         if let viewController = segue.destination as? RestaurantDetailViewController ,
-           let restaurant = selectedRestaurant{
+           let restaurant = selectedRestaurant {
             viewController.selectedRestaurant = restaurant
-        }
-            
+        }    
     }
     
     func initialize() {
