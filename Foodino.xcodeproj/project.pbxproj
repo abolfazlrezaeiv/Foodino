@@ -30,6 +30,9 @@
 		D7835C742A7542E700B88211 /* MapDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7835C732A7542E700B88211 /* MapDataManager.swift */; };
 		D7835C772A75549700B88211 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7835C762A75549700B88211 /* DataManager.swift */; };
 		D78B75812A75AD1E001409B9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78B75802A75AD1E001409B9 /* MapViewController.swift */; };
+		D79F501C2A76D56B007E26E7 /* RestaurantDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79F501B2A76D56B007E26E7 /* RestaurantDetail.storyboard */; };
+		D79F501F2A76D5D8007E26E7 /* ReviewForm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79F501E2A76D5D8007E26E7 /* ReviewForm.storyboard */; };
+		D79F50222A76D600007E26E7 /* PhotoFilter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79F50212A76D600007E26E7 /* PhotoFilter.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,9 @@
 		D7835C732A7542E700B88211 /* MapDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDataManager.swift; sourceTree = "<group>"; };
 		D7835C762A75549700B88211 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		D78B75802A75AD1E001409B9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D79F501B2A76D56B007E26E7 /* RestaurantDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RestaurantDetail.storyboard; sourceTree = "<group>"; };
+		D79F501E2A76D5D8007E26E7 /* ReviewForm.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ReviewForm.storyboard; sourceTree = "<group>"; };
+		D79F50212A76D600007E26E7 /* PhotoFilter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PhotoFilter.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +153,9 @@
 		D73073102A6716F10030738D /* Foodino */ = {
 			isa = PBXGroup;
 			children = (
+				D79F50202A76D5E8007E26E7 /* PhotoFilter */,
+				D79F501D2A76D5C7007E26E7 /* ReviewForm */,
+				D79F501A2A76D53A007E26E7 /* ResturantDetail */,
 				D7835C752A75547300B88211 /* Misc */,
 				D74860CE2A7478D900D52C89 /* Map */,
 				D77F7DE12A70775A005AE67C /* Location */,
@@ -251,6 +260,30 @@
 				D7835C762A75549700B88211 /* DataManager.swift */,
 			);
 			path = Misc;
+			sourceTree = "<group>";
+		};
+		D79F501A2A76D53A007E26E7 /* ResturantDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D79F501B2A76D56B007E26E7 /* RestaurantDetail.storyboard */,
+			);
+			path = ResturantDetail;
+			sourceTree = "<group>";
+		};
+		D79F501D2A76D5C7007E26E7 /* ReviewForm */ = {
+			isa = PBXGroup;
+			children = (
+				D79F501E2A76D5D8007E26E7 /* ReviewForm.storyboard */,
+			);
+			path = ReviewForm;
+			sourceTree = "<group>";
+		};
+		D79F50202A76D5E8007E26E7 /* PhotoFilter */ = {
+			isa = PBXGroup;
+			children = (
+				D79F50212A76D600007E26E7 /* PhotoFilter.storyboard */,
+			);
+			path = PhotoFilter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,8 +392,11 @@
 			files = (
 				D74205F72A6DC2CD001F2D33 /* ExploreData.plist in Resources */,
 				D73073212A6716F20030738D /* LaunchScreen.storyboard in Resources */,
+				D79F50222A76D600007E26E7 /* PhotoFilter.storyboard in Resources */,
+				D79F501F2A76D5D8007E26E7 /* ReviewForm.storyboard in Resources */,
 				D73073452A6721A90030738D /* Assets.xcassets in Resources */,
 				D74860CB2A73AE9700D52C89 /* Locations.plist in Resources */,
+				D79F501C2A76D56B007E26E7 /* RestaurantDetail.storyboard in Resources */,
 				D74860D12A7479B800D52C89 /* MapLocations.plist in Resources */,
 				D73073192A6716F10030738D /* Main.storyboard in Resources */,
 			);
