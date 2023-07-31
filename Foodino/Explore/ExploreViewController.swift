@@ -15,8 +15,16 @@ class ExploreViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.dataSource = self
-        manager.fetch()
+        initialize()
         
+    }
+}
+
+
+// MARK: Private extention
+extension ExploreViewController {
+    private func initialize() {
+        manager.fetch()
     }
     
     @IBAction func unwindToLocationCancel(_ unwindSegue: UIStoryboardSegue) {
@@ -25,6 +33,8 @@ class ExploreViewController: UIViewController {
     }
 }
 
+
+// MARK: UICollectionDataSource And Delegate
 extension ExploreViewController : UICollectionViewDelegate,UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         manager.numberOfExploreItems()
