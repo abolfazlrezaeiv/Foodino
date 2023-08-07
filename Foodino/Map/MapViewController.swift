@@ -8,7 +8,7 @@
 import UIKit
 import MapKit
 
-class MapViewController: UIViewController,MKMapViewDelegate {
+class MapViewController: UIViewController {
     private let manager = MapDataManager()
     var selectedRestaurant : RestaurantItem?
 
@@ -27,12 +27,16 @@ class MapViewController: UIViewController,MKMapViewDelegate {
                 print("Segue not added")
        }
     }
-    
+}
+
+
+// MARK: Private Extension
+private extension MapViewController {
     func showRestaurantDetail(segue: UIStoryboardSegue) {
         if let viewController = segue.destination as? RestaurantDetailViewController ,
            let restaurant = selectedRestaurant {
             viewController.selectedRestaurant = restaurant
-        }    
+        }
     }
     
     func initialize() {
@@ -46,7 +50,11 @@ class MapViewController: UIViewController,MKMapViewDelegate {
         mapView.setRegion(manager.initialRegion(latDelta: 0.5, longDelta: 0.5), animated: true)
         mapView.addAnnotations(manager.anotations)
     }
-    
+}
+
+// MARK: MKMapViewDelegate
+extension MapViewController : MKMapViewDelegate {
+ 
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         guard let annotation = mapView.selectedAnnotations.first else { return  }
         selectedRestaurant = annotation as? RestaurantItem

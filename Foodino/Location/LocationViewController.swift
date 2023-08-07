@@ -7,9 +7,25 @@
 
 import UIKit
 
-class LocationViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
+class LocationViewController: UIViewController {
     let manager = LocationDataManager()
     
+    @IBOutlet var tableview: UITableView!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        initialize()
+    }
+}
+
+// MARK: Private Extension
+private extension LocationViewController {
+    func initialize() {
+        manager.fetchData()
+    }
+}
+
+// MARK: UITableViewDataSource
+extension LocationViewController : UITableViewDataSource,UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         manager.numberOfLocationItems()
     }
@@ -18,13 +34,5 @@ class LocationViewController: UIViewController,UITableViewDataSource,UITableView
         let cell = tableView.dequeueReusableCell(withIdentifier: "locationCell", for: indexPath)
         cell.textLabel?.text = manager.locationItem(at: indexPath.row)
         return cell
-    }
-    
-
-    @IBOutlet var tableview: UITableView!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        manager.fetchData()
     }
 }

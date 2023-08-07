@@ -17,8 +17,13 @@ class RestaurantListViewController: UIViewController {
     }
 }
 
+// MARK: Private Extention
+extension RestaurantDetailViewController {
+    
+}
 
 
+// MARK: UICollectionViewDataSource
 extension RestaurantListViewController : UICollectionViewDataSource, UICollectionViewDelegate{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         1
