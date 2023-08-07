@@ -19,6 +19,20 @@
 		D73073382A6716F20030738D /* FoodinoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73073372A6716F20030738D /* FoodinoUITestsLaunchTests.swift */; };
 		D73073452A6721A90030738D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73073442A6721A80030738D /* Assets.xcassets */; };
 		D73073482A672A660030738D /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73073472A672A660030738D /* ExploreViewController.swift */; };
+		D73E5D342A8169D20073A8C8 /* Los Angeles.json in Resources */ = {isa = PBXBuildFile; fileRef = D73E5D262A8169D20073A8C8 /* Los Angeles.json */; };
+		D73E5D352A8169D20073A8C8 /* New Orleans.json in Resources */ = {isa = PBXBuildFile; fileRef = D73E5D272A8169D20073A8C8 /* New Orleans.json */; };
+		D73E5D362A8169D20073A8C8 /* San Antonio.json in Resources */ = {isa = PBXBuildFile; fileRef = D73E5D282A8169D20073A8C8 /* San Antonio.json */; };
+		D73E5D372A8169D20073A8C8 /* Philadelphia.json in Resources */ = {isa = PBXBuildFile; fileRef = D73E5D292A8169D20073A8C8 /* Philadelphia.json */; };
+		D73E5D382A8169D20073A8C8 /* Chicago.json in Resources */ = {isa = PBXBuildFile; fileRef = D73E5D2A2A8169D20073A8C8 /* Chicago.json */; };
+		D73E5D392A8169D20073A8C8 /* Miami.json in Resources */ = {isa = PBXBuildFile; fileRef = D73E5D2B2A8169D20073A8C8 /* Miami.json */; };
+		D73E5D3A2A8169D20073A8C8 /* Houston.json in Resources */ = {isa = PBXBuildFile; fileRef = D73E5D2C2A8169D20073A8C8 /* Houston.json */; };
+		D73E5D3B2A8169D20073A8C8 /* New York.json in Resources */ = {isa = PBXBuildFile; fileRef = D73E5D2D2A8169D20073A8C8 /* New York.json */; };
+		D73E5D3C2A8169D20073A8C8 /* Boston.json in Resources */ = {isa = PBXBuildFile; fileRef = D73E5D2E2A8169D20073A8C8 /* Boston.json */; };
+		D73E5D3D2A8169D20073A8C8 /* Charleston.json in Resources */ = {isa = PBXBuildFile; fileRef = D73E5D2F2A8169D20073A8C8 /* Charleston.json */; };
+		D73E5D3E2A8169D20073A8C8 /* Portland.json in Resources */ = {isa = PBXBuildFile; fileRef = D73E5D302A8169D20073A8C8 /* Portland.json */; };
+		D73E5D3F2A8169D20073A8C8 /* Las Vegas.json in Resources */ = {isa = PBXBuildFile; fileRef = D73E5D312A8169D20073A8C8 /* Las Vegas.json */; };
+		D73E5D402A8169D20073A8C8 /* Aspen.json in Resources */ = {isa = PBXBuildFile; fileRef = D73E5D322A8169D20073A8C8 /* Aspen.json */; };
+		D73E5D412A8169D20073A8C8 /* San Francisco.json in Resources */ = {isa = PBXBuildFile; fileRef = D73E5D332A8169D20073A8C8 /* San Francisco.json */; };
 		D74205F72A6DC2CD001F2D33 /* ExploreData.plist in Resources */ = {isa = PBXBuildFile; fileRef = D74205F62A6DC2CD001F2D33 /* ExploreData.plist */; };
 		D74205F92A6DC310001F2D33 /* ExploreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74205F82A6DC310001F2D33 /* ExploreItem.swift */; };
 		D74205FB2A6DC3F8001F2D33 /* ExploreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74205FA2A6DC3F8001F2D33 /* ExploreDataManager.swift */; };
@@ -72,6 +86,20 @@
 		D73073372A6716F20030738D /* FoodinoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodinoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D73073442A6721A80030738D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D73073472A672A660030738D /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		D73E5D262A8169D20073A8C8 /* Los Angeles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Los Angeles.json"; sourceTree = "<group>"; };
+		D73E5D272A8169D20073A8C8 /* New Orleans.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "New Orleans.json"; sourceTree = "<group>"; };
+		D73E5D282A8169D20073A8C8 /* San Antonio.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "San Antonio.json"; sourceTree = "<group>"; };
+		D73E5D292A8169D20073A8C8 /* Philadelphia.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Philadelphia.json; sourceTree = "<group>"; };
+		D73E5D2A2A8169D20073A8C8 /* Chicago.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Chicago.json; sourceTree = "<group>"; };
+		D73E5D2B2A8169D20073A8C8 /* Miami.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Miami.json; sourceTree = "<group>"; };
+		D73E5D2C2A8169D20073A8C8 /* Houston.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Houston.json; sourceTree = "<group>"; };
+		D73E5D2D2A8169D20073A8C8 /* New York.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "New York.json"; sourceTree = "<group>"; };
+		D73E5D2E2A8169D20073A8C8 /* Boston.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Boston.json; sourceTree = "<group>"; };
+		D73E5D2F2A8169D20073A8C8 /* Charleston.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Charleston.json; sourceTree = "<group>"; };
+		D73E5D302A8169D20073A8C8 /* Portland.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Portland.json; sourceTree = "<group>"; };
+		D73E5D312A8169D20073A8C8 /* Las Vegas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Las Vegas.json"; sourceTree = "<group>"; };
+		D73E5D322A8169D20073A8C8 /* Aspen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Aspen.json; sourceTree = "<group>"; };
+		D73E5D332A8169D20073A8C8 /* San Francisco.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "San Francisco.json"; sourceTree = "<group>"; };
 		D74205F42A6DA1D6001F2D33 /* CollectionTestPlaygound.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CollectionTestPlaygound.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D74205F62A6DC2CD001F2D33 /* ExploreData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExploreData.plist; sourceTree = "<group>"; };
 		D74205F82A6DC310001F2D33 /* ExploreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreItem.swift; sourceTree = "<group>"; };
@@ -203,6 +231,27 @@
 			path = Explore;
 			sourceTree = "<group>";
 		};
+		D73E5D252A81687F0073A8C8 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				D73E5D322A8169D20073A8C8 /* Aspen.json */,
+				D73E5D2E2A8169D20073A8C8 /* Boston.json */,
+				D73E5D2F2A8169D20073A8C8 /* Charleston.json */,
+				D73E5D2A2A8169D20073A8C8 /* Chicago.json */,
+				D73E5D2C2A8169D20073A8C8 /* Houston.json */,
+				D73E5D312A8169D20073A8C8 /* Las Vegas.json */,
+				D73E5D262A8169D20073A8C8 /* Los Angeles.json */,
+				D73E5D2B2A8169D20073A8C8 /* Miami.json */,
+				D73E5D272A8169D20073A8C8 /* New Orleans.json */,
+				D73E5D2D2A8169D20073A8C8 /* New York.json */,
+				D73E5D292A8169D20073A8C8 /* Philadelphia.json */,
+				D73E5D302A8169D20073A8C8 /* Portland.json */,
+				D73E5D282A8169D20073A8C8 /* San Antonio.json */,
+				D73E5D332A8169D20073A8C8 /* San Francisco.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
 		D74205F52A6DC18E001F2D33 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +310,7 @@
 		D7835C752A75547300B88211 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
+				D73E5D252A81687F0073A8C8 /* Json */,
 				D7835C762A75549700B88211 /* DataManager.swift */,
 				D79F50232A76DAD8007E26E7 /* Segue.swift */,
 			);
@@ -396,14 +446,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D73E5D3C2A8169D20073A8C8 /* Boston.json in Resources */,
+				D73E5D3E2A8169D20073A8C8 /* Portland.json in Resources */,
+				D73E5D352A8169D20073A8C8 /* New Orleans.json in Resources */,
 				D74205F72A6DC2CD001F2D33 /* ExploreData.plist in Resources */,
+				D73E5D342A8169D20073A8C8 /* Los Angeles.json in Resources */,
 				D73073212A6716F20030738D /* LaunchScreen.storyboard in Resources */,
+				D73E5D3A2A8169D20073A8C8 /* Houston.json in Resources */,
+				D73E5D3D2A8169D20073A8C8 /* Charleston.json in Resources */,
+				D73E5D3B2A8169D20073A8C8 /* New York.json in Resources */,
+				D73E5D392A8169D20073A8C8 /* Miami.json in Resources */,
 				D79F50222A76D600007E26E7 /* PhotoFilter.storyboard in Resources */,
+				D73E5D372A8169D20073A8C8 /* Philadelphia.json in Resources */,
+				D73E5D3F2A8169D20073A8C8 /* Las Vegas.json in Resources */,
+				D73E5D402A8169D20073A8C8 /* Aspen.json in Resources */,
 				D79F501F2A76D5D8007E26E7 /* ReviewForm.storyboard in Resources */,
 				D73073452A6721A90030738D /* Assets.xcassets in Resources */,
+				D73E5D382A8169D20073A8C8 /* Chicago.json in Resources */,
 				D74860CB2A73AE9700D52C89 /* Locations.plist in Resources */,
 				D74860D12A7479B800D52C89 /* MapLocations.plist in Resources */,
 				D79F50282A76E22D007E26E7 /* RestaurantDetail.storyboard in Resources */,
+				D73E5D412A8169D20073A8C8 /* San Francisco.json in Resources */,
+				D73E5D362A8169D20073A8C8 /* San Antonio.json in Resources */,
 				D73073192A6716F10030738D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
