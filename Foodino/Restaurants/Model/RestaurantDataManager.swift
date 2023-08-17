@@ -30,4 +30,12 @@ class RestaurantDataManager {
        }
        completionHandler(restaurantItems)
     }
+    
+    func numberOfRestaurantItems() -> Int {
+        restaurantItems.count
+    }
+    
+    func restaurantItem(at index : Int) -> RestaurantItem {
+        restaurantItems[index]
+    }
 }
